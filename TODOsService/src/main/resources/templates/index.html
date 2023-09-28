@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>TODOs APP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<div style="min-width:400px">
+
+<div class="w3-bar w3-large w3-theme-d4">
+  <span class="w3-bar-item">TODOs APP</span>
+    <a class="w3-bar-item w3-right w3-button" href="/create">Create TODO</a>
+</div>
+
+
+<div class="w3-container w3-content" id="todos">
+ <p class="w3-opacity"><b>Completed :</b></p>
+    <div id="completed">
+        <div class="w3-panel w3-white w3-card w3-display-container todo">
+            <p class="w3-text-black"><b class="todo-id" >1</b></p>
+            <p class="w3-text-blue todo-description">This is a TODO</p>
+            <a class="w3-text-black w3-button w3-teal w3-round w3-hover-pink w3-right w3-margin-bottom mark" href="" >toggle complete</a>
+        </div>
+    </div>
+
+    <p class="w3-opacity"><b>Remaining :</b></p>
+    <div id="remaining">
+    </div>
+</div>
+
+
+
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
