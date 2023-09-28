@@ -19,7 +19,7 @@ public class TODOsServiceApplication implements WebMvcConfigurer {
 
 	@Bean
 	@LoadBalanced
-	RestTemplate restTemplate(){
+	public RestTemplate restTemplate(){
 		return new RestTemplate();
 	}
 
